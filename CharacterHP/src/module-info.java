@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author haris
+ *
+ */
+module CharacterHP {
+}

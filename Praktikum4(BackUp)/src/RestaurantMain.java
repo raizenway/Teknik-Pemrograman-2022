@@ -1,0 +1,19 @@
+public class RestaurantMain {
+	
+	public static void main(String[] args) {
+		Restaurant menu = new Restaurant ();
+		Menu pesan = new Menu(menu);
+		menu.tambahMenuMakanan("Bala-bala", 1_000, 20);
+		Restaurant.nextId();
+		menu.tambahMenuMakanan("Gehu", 1_000, 20);
+		Restaurant.nextId();
+		menu.tambahMenuMakanan("Tahu", 1_000, 0);
+		Restaurant.nextId();
+		menu.tambahMenuMakanan("Molen", 1_000, 20);
+		menu.tampilMenuMakanan();
+		pesan.pemesanan(1, 5);
+		menu.tampilMenuMakanan();
+		
+	}
+
+}
