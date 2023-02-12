@@ -46,7 +46,7 @@ public class Produk {
 			System.out.println("Menu:");
 			for(int i = 0; i <= id; i++){
 				if(!isOutOfStock(i)) {
-					System.out.println(nama_produk[i] + "["+qty[i]+"]"+"\tRp. "+harga[i]);					
+					System.out.println(i+1+ ". " + nama_produk[i] + "["+qty[i]+"]"+"\tRp. "+harga[i]);					
 				}
 			}
 		}
@@ -63,14 +63,6 @@ public class Produk {
 			id++;
 		}
 		
-		/*public static void tampilid() {
-			id-=3;
-			System.out.println(id);
-		}
-		
-		public void tampilmakanan() {
-			System.out.println(nama_produk[id]);
-		}*/
 }
 		
 		
