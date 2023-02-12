@@ -13,16 +13,8 @@ public class Restaurant {
 			return stok;
 		}
 
-		public void setStok(int[] stok) {
-			this.stok = stok;
-		}
-
 		public static byte getId() {
 			return id;
-		}
-
-		public static void setId(byte id) {
-			Restaurant.id = id;
 		}
 
 		public Restaurant() {
@@ -58,14 +50,6 @@ public class Restaurant {
 			id++;
 		}
 		
-		/*public static void tampilid() {
-			id-=3;
-			System.out.println(id);
-		}
-		
-		public void tampilmakanan() {
-			System.out.println(nama_makanan[id]);
-		}*/
 }
 		
 		
