@@ -38,7 +38,7 @@ public class Salesperson implements Comparable
     //  (last, then first) breaking a tie.
     //------------------------------------------
     @Override
-    public int compareTo(Object other)
+    public int compareTo(Object other)	
     {
         int result = Integer.compare(this.totalSales, ((Salesperson)other).totalSales);
         if (result == 0){
