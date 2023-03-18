@@ -5,5 +5,5 @@
  * @author haris
  *
  */
-module Praktikum6 {
+module tes {
 }

@@ -10,7 +10,7 @@ public class CharacterData extends Character implements Vision, Weapon {
 	
 	//Constructor
 	public CharacterData(String name, String gender, String height, String vision, String weapon ) {
-		this.name = name;
+		this.name = name + "santoso";
 		this.gender = gender;
 		this.height = height;
 		this.vision = vision;
